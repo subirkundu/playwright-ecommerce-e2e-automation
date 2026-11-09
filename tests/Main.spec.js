@@ -27,7 +27,5 @@ test("End to End Automation", async ({ page }) => {
   await checkOutpp.selectCountry();
   await checkOutpp.thankyou();
 
-  //await page.locator(".card-body").filter({hasText : productName}).getByRole("button",{name: 'Add To Cart'}).click();
-
   await page.pause();
 });
